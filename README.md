@@ -20,12 +20,13 @@ Print the result
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
-#Developed by: Nikhil M
-#RegisterNumber:22008584
+#Developed by:Pravin raj.A
+#RegisterNumber:212222240079
+
 import numpy as np
-A=np.array([[4,2],[2,4]])
-values,vectors=np.linalg.eig(A)
-print("Eigen values are",values,"and Eigen Vectors are",vectors)
+A=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+evalues,evector=np.linalg.eig(A)
+print("Eigen values are {0} and Eigen Vectors are {1}".format(evalues,evector))
 ```
 
 ## Output:
